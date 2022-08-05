@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '盒娘说你不懂大鸡鸡的快乐';
+    if (score <= 49) return '玫说你不懂打鸿的快乐';
     if (score <= 99) return '还算可以';
-    if (score <= 149) return '单身多久了？';
-    if (score <= 199) return '晚上来我屋';
+    if (score <= 149) return '不打鸿了？';
+    if (score <= 199) return '今天来打鸿';
     return '人？';
 }
 
